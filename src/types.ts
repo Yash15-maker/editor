@@ -104,3 +104,4 @@ export type MenuOption =
   | "Audio"
   | "Text"
   | "Image"
+  | "Export"

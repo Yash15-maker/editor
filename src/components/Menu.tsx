@@ -78,5 +78,11 @@ const MENU_OPTIONS = [
       store.setSelectedMenuOption("Text");
     },
   },
-
+  {
+    name: "Export",
+    icon: MdDownload,
+    action: (store: Store) => {
+      store.setSelectedMenuOption("Export");
+    },
+  },
 ];
